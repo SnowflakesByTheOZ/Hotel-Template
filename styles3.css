@@ -1,0 +1,141 @@
+@import url('http://fonts.cdnfonts.com/css/pauschal');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pauschal', sans-serif;
+    color: white;
+
+}
+
+.top_pic {
+    width: 100%;
+    height: 100px;
+    background-image: url('https://media.cntraveler.com/photos/56799015c2ebbef23e7d927b/master/pass/Hotelroom-Alamy.jpg');
+}
+
+.fade {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(210, 105, 30, 0.336);
+    opacity: .9;
+    position: relative;
+}
+
+.header_left {
+    background-color: transparent;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    margin-left: 2%;
+    z-index: -1;
+}
+
+.header_dummy {
+    background-color: transparent;
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: 25%;
+    margin-left: 2%;
+    z-index: -1;
+
+}
+
+.card {
+    position: absolute;
+    top: 40%;
+}
+
+.pment {
+    top: 40%;
+    position: absolute;
+    left: 5%;
+    font-weight: bold;
+}
+
+.checkbox {
+    top: 40%;
+    position: absolute;
+    left: 25%;
+}
+
+.terms {
+    top: 40%;
+    position: absolute;
+    left: 30%;
+}
+
+.lang {
+    list-style: none;
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    display: inline-flex;
+    
+}
+
+.lang li {
+    padding-left: 20px;
+
+}
+
+.header_right {
+    background-color: transparent;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    margin-left: 50%;
+    z-index: -1;
+                    
+}
+
+.header_right_dummy {
+
+    background-color: transparent;
+    width: 40%;
+    height: 50px;
+    position: relative;
+    top: -25%;
+    margin-left: 50%;
+    
+}
+
+.book {
+    top: 40%;
+    position: absolute;
+}
+
+.inbox {
+    top: 40%;
+    position: absolute;
+    left: 20%;
+}
+
+.review {
+    top: 40%;
+    position: absolute;
+    left: 30%;
+}
+
+.proficon {
+    top: 40%;
+    position: absolute;
+    left: 59%;
+}
+
+.login {
+    list-style: none;
+    top: 23%;
+    position: absolute;
+    left: 69%;
+}
+
+
+
+
+
+
